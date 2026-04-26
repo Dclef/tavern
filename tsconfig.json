@@ -6,12 +6,14 @@
       "lodash",
       "toastr",
       "type-fest",
+      "web-bluetooth",
       "yaml",
       "zod",
     ],
     "target": "ESNext",
     "module": "ESNext",
     "outDir": "dist",
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@util/*": [
