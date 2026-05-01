@@ -22,7 +22,10 @@
     "@types/react-dom": "^19.2.3",
     "@types/showdown": "^2.0.6",
     "@types/toastr": "^2.1.43",
+<<<<<<< HEAD
     "@types/web-bluetooth": "0.0.21",
+=======
+>>>>>>> 1135d5998344ca329c4a49283460954de5cb18ce
     "@types/webpack": "^5.28.5",
     "@typescript-eslint/parser": "^8.59.1",
     "autoprefixer": "^10.5.0",
@@ -51,7 +54,11 @@
     "postcss-loader": "^8.2.1",
     "postcss-minify": "^1.2.0",
     "prettier": "^3.8.3",
+<<<<<<< HEAD
     "remark": "^14.0.3",
+=======
+    "remark": "^15.0.1",
+>>>>>>> 1135d5998344ca329c4a49283460954de5cb18ce
     "remark-html": "^16.0.1",
     "remark-loader": "^6.0.0",
     "sass": "^1.99.0",
@@ -65,7 +72,11 @@
     "tsconfig-paths-webpack-plugin": "^4.2.0",
     "tslib": "^2.8.1",
     "type-fest": "^4.41.0",
+<<<<<<< HEAD
     "typescript": "6.0.3",
+=======
+    "typescript": "6.0.0-dev.20250807",
+>>>>>>> 1135d5998344ca329c4a49283460954de5cb18ce
     "typescript-eslint": "^8.59.1",
     "unplugin-auto-import": "^20.3.0",
     "unplugin-vue-components": "^29.2.0",
@@ -78,6 +89,7 @@
     "yaml-loader": "^0.9.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@pixi/react": "8.0.5",
     "@vueuse/components": "^14.3.0",
     "@vueuse/core": "^14.3.0",
@@ -85,6 +97,15 @@
     "@vueuse/shared": "^14.3.0",
     "async-wait-until": "^2.0.31",
     "axios": "1.15.2",
+=======
+    "@pixi/react": "8.0.0-beta.25",
+    "@vueuse/components": "^14.3.0",
+    "@vueuse/core": "^13.9.0",
+    "@vueuse/integrations": "^13.9.0",
+    "@vueuse/shared": "^13.9.0",
+    "async-wait-until": "^2.0.31",
+    "axios": "1.14.0",
+>>>>>>> 1135d5998344ca329c4a49283460954de5cb18ce
     "compare-versions": "^6.1.1",
     "dedent": "^1.7.2",
     "gsap": "^3.15.0",
@@ -95,7 +116,11 @@
     "klona": "^2.0.6",
     "lodash": "^4.18.1",
     "pinia": "^3.0.4",
+<<<<<<< HEAD
     "pixi.js": "8.14.3",
+=======
+    "pixi.js": "^8.18.1",
+>>>>>>> 1135d5998344ca329c4a49283460954de5cb18ce
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "toastr": "^2.1.4",
@@ -103,7 +128,11 @@
     "vue-final-modal": "^4.5.5",
     "vue-router": "^4.6.4",
     "vue-word-highlighter": "^1.2.6",
+<<<<<<< HEAD
     "vue3-pixi": "1.0.1",
+=======
+    "vue3-pixi": "1.0.0-beta.3",
+>>>>>>> 1135d5998344ca329c4a49283460954de5cb18ce
     "yaml": "^2.8.3",
     "zod": "^4.4.1"
   },
