@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import { useIntervalFn, watchIgnorable } from '@vueuse/core';
 import { defineStore } from 'pinia';
 import type { StoreDefinition } from 'pinia';
 import { ref } from 'vue';
 import type { Ref } from 'vue';
+=======
+import { StoreDefinition } from 'pinia';
+>>>>>>> 821d0f7fc2e1ba1b9ee76aa4a9f6fc81238c4bfb
 
 export function defineMvuDataStore<T extends z.ZodObject>(
   schema: T,
@@ -48,7 +52,11 @@ export function defineMvuDataStore<T extends z.ZodObject>(
 
       const { ignoreUpdates } = watchIgnorable(
         data,
+<<<<<<< HEAD
         (new_data: z.infer<T>) => {
+=======
+        new_data => {
+>>>>>>> 821d0f7fc2e1ba1b9ee76aa4a9f6fc81238c4bfb
           const result = schema.safeParse(new_data);
           if (result.error) {
             return;
