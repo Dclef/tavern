@@ -30,6 +30,7 @@ declare module '*.vue' {
 
 declare const YAML: typeof import('yaml');
 
+<<<<<<< HEAD
 type PartialDeep<T, Options extends import('type-fest').PartialDeepOptions = {}> = import('type-fest').PartialDeep<
   T,
   Options
@@ -40,12 +41,15 @@ type LiteralUnion<LiteralType, BaseType extends import('type-fest').Primitive = 
 >;
 type SetRequired<BaseType, Keys extends keyof BaseType> = import('type-fest').SetRequired<BaseType, Keys>;
 
+=======
+>>>>>>> 953e75dbee8f57836eb5651fcf1275f064938d35
 declare const z: typeof import('zod');
 declare namespace z {
   export type infer<T> = import('zod').infer<T>;
   export type input<T> = import('zod').input<T>;
   export type output<T> = import('zod').output<T>;
 }
+<<<<<<< HEAD
 declare const createApp: typeof import('vue').createApp;
 declare const inject: typeof import('vue').inject;
 declare const reactive: typeof import('vue').reactive;
@@ -58,10 +62,15 @@ declare const useIntervalFn: typeof import('@vueuse/core').useIntervalFn;
 declare const watchIgnorable: typeof import('@vueuse/core').watchIgnorable;
 declare const dedent: typeof import('dedent').default;
 declare const klona: typeof import('klona').klona;
+=======
+>>>>>>> 953e75dbee8f57836eb5651fcf1275f064938d35
 
 declare module 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/util/mvu_zod.js' {
   export function registerMvuSchema(
     schema: z.ZodType<Record<string, any>> | (() => z.ZodType<Record<string, any>>),
   ): void;
 }
+<<<<<<< HEAD
 declare module 'https://testingcf.jsdelivr.net/gh/MagicalAstrogy/MagVarUpdate/artifact/bundle.js' {}
+=======
+>>>>>>> 953e75dbee8f57836eb5651fcf1275f064938d35
